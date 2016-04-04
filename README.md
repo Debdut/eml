@@ -1,2 +1,6 @@
-# eml
+# EML
 Enumeration Mathematics Library
+
+Enumeration Mathematics Library is a numerical library written in ANSI C. It is free software under the GNU General Public License.
+
+The library provides a wide range of mathematical routines such as number-theoretic functions, algebraic computation, arbitrary precision numbers, etc.
