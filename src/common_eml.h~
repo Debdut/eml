@@ -1,0 +1,16 @@
+#ifndef _EML_COMMOM_
+#define _EML_COMMOM_
+
+/*Defining Bool Type For ANSI C and C99*/
+
+#ifndef _Bool
+#define TRUE 1
+#define FALSE 0
+typedef int bool;
+
+#elif
+#define bool _Bool
+
+#endif
+
+#endif
