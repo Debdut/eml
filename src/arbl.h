@@ -73,6 +73,16 @@
 #    define al32_t struct al32
 #    define al64_t struct al64
 
+    /* Data Init Functions Protypes */
+
+    void data_init (ual8_t* num, char* s);
+    void data_init (ual16_t* num, char* s);
+    void data_init (ual32_t* num, char* s);
+    void data_init (ual64_t* num, char* s);
+    void data_init (al8_t* num, char* s);
+    void data_init (al16_t* num, char* s);
+    void data_init (al32_t* num, char* s);
+    void data_init (al64_t* num, char* s);
 
 
 #endif
