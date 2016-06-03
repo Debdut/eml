@@ -1,13 +1,16 @@
-#include "common_eml.h"
+#include "src/common_eml.h"
 
 int main()
 {
+    int i;
+    
     print_eml_version ();
     print_compiler_version ();
 
-    char a[1000], b[1000], sum[];
+    char a[1000], b[1000], *sum;
+    *sum = 1;
 
-    for (int i = 0; i < 999; i++)
+    for (i = 0; i < 999; i++)
     {
 	*(a + i) = '1';
     }

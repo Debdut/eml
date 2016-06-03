@@ -65,9 +65,22 @@
 
 /*Function Prototypes*/
 
-    void print_eml_version ();
-    void print_compiler_version ();
-    void addchar (char* a, char* b, short int sum[2]);
-    void add_char_int (char* a, char* b, char* sum);
+/*EML Functions*/
+void print_eml_version ();
+void print_compiler_version ();
 
+/*Char functions*/
+unsigned int charlen (char* s);
+void charcopy (char* cpfrom, char* cpto);
+char* reverse (char* s)
+char* adjust (char* s);
+void print_cint (char* s);
+char* print_cint_to_str (char* s);
+
+/*Operations on char int or C-int*/
+void addchar1 (char* a, char* sum, char* dig_sum);
+void addchar2 (char* a, char* b, char* sum, char* dig_sum);
+char* max_cint (char* a, char* b);
+char* min_cint (char* a, char* b);
+char* add_cint (char* a, char* b);
 #endif
