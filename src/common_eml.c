@@ -208,7 +208,7 @@ char* add_cint (char* a, char* b)
 
     if (*digit_sum > 0)
     {
-	*sum = *digit_sum;
+	*sum = *digit_sum + '0';
 	sum++;
 	*sum = '\0';
 
