@@ -72,7 +72,7 @@ void print_compiler_version ();
 /*Char functions*/
 unsigned int charlen (char* s);
 void charcopy (char* cpfrom, char* cpto);
-char* reverse (char* s)
+void reverse (char* s);
 char* adjust (char* s);
 void print_cint (char* s);
 char* print_cint_to_str (char* s);

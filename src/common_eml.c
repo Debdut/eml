@@ -54,9 +54,10 @@ void charcopy (char* cpfrom, char* cpto)
     }
 }
 
+
 void reverse (char* s)
 {
-    len = charlen (s);
+    unsigned int len = charlen (s);
     char temp;
 
     for(int var = 0; var < len / 2; var++)
@@ -86,10 +87,18 @@ void print_cint (char* s)
     }
 }
 
+
 char* print_cint_to_str (char* s)
 {
-    unsigned int len = 
+    unsigned int len = charlen (s);
     char* c = (char*) malloc (len * sizeof (char));
+	while (len > 0)
+	{
+		*c = *(s+len-1);
+		c++;
+		len--;
+	}
+	return c;
 }
 
 /*Operations on char int or C-int*/
